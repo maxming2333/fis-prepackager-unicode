@@ -1,0 +1,36 @@
+{
+  "name": "fis-prepackager-unicode",
+  "version": "0.0.1",
+  "description": "a parser plugin for fis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis",
+    "unicode"
+  ],
+  "dependencies": {},
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "maxming",
+      "email": "maxming2333@gmail.com"
+    }
+  ],
+  "directories": {},
+  "homepage": "https://github.com/maxming2333/fis-prepackager-unicode",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxming2333/fis-prepackager-unicode.git",
+    "web": "https://github.com/maxming2333/fis-prepackager-unicode"
+  },
+  "bugs": {
+    "url": "https://github.com/maxming2333/fis-prepackager-unicode/issues",
+    "email": "maxming2333@gmail.com"
+  },
+  "engines": {
+    "node": ">= 1.0.0"
+  },
+  "author": "maxming <maxming2333@gmail.com> (http://maxming.com)"
+}
