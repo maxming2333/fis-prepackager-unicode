@@ -1,6 +1,6 @@
 {
   "name": "fis-prepackager-unicode",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "a parser plugin for fis",
   "main": "index.js",
   "scripts": {
