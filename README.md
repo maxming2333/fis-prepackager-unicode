@@ -5,6 +5,11 @@ a prepackager plugin for fis
 
 ## usage
 
+
+> Q: 为何在 prepackager 阶段执行unicode编码？
+> A: 因为 uglify-js 会让 Unicode 变回中文，所以要在打包阶段进行 Unicode
+
+
 **install**
 
 ```bash
