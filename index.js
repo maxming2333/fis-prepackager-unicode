@@ -1,11 +1,7 @@
 'use strict';
 
 module.exports = function (ret, conf, settings, opt) {
-
   var enUnicode = function (content, file) {
-    if (!file.isCssLike) {
-      return content;
-    }
     var exp = new RegExp("(/\\\*([^*]|[\\\r\\\n]|(\\\*+([^*/]|[\\\r\\\n])))*\\\*+/)|(//.*)|([^(//.*)]*)", "g");
     content = content.replace(exp, function (_text) {
       // 非注释才 Unicode
